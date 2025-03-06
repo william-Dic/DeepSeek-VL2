@@ -1,81 +1,5 @@
-<!-- markdownlint-disable first-line-h1 -->
-<!-- markdownlint-disable html -->
-<!-- markdownlint-disable no-duplicate-header -->
 
-<div align="center">
-  <img src="images/logo.svg" width="60%" alt="DeepSeek AI" />
-</div>
-<hr>
-<div align="center">
-
-  <a href="https://www.deepseek.com/" target="_blank">
-    <img alt="Homepage" src="images/badge.svg" />
-  </a>
-  <a href="https://huggingface.co/spaces/deepseek-ai/deepseek-vl2-small" target="_blank">
-    <img alt="Chat" src="https://img.shields.io/badge/🤖%20Chat-DeepSeek%20VL-536af5?color=536af5&logoColor=white" />
-  </a>
-  <a href="https://huggingface.co/deepseek-ai" target="_blank">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white" />
-  </a>
-
-</div>
-
-
-<div align="center">
-
-  <a href="https://discord.gg/Tc7c45Zzu5" target="_blank">
-    <img alt="Discord" src="https://img.shields.io/badge/Discord-DeepSeek%20AI-7289da?logo=discord&logoColor=white&color=7289da" />
-  </a>
-  <a href="images/qr.jpeg" target="_blank">
-    <img alt="Wechat" src="https://img.shields.io/badge/WeChat-DeepSeek%20AI-brightgreen?logo=wechat&logoColor=white" />
-  </a>
-  <a href="https://twitter.com/deepseek_ai" target="_blank">
-    <img alt="Twitter Follow" src="https://img.shields.io/badge/Twitter-deepseek_ai-white?logo=x&logoColor=white" />
-  </a>
-
-</div>
-
-<div align="center">
-
-  <a href="LICENSE-CODE">
-    <img alt="Code License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53">
-  </a>
-  <a href="LICENSE-MODEL">
-    <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53">
-  </a>
-</div>
-
-
-<p align="center">
-  <a href="https://github.com/deepseek-ai/DeepSeek-VL2/tree/main?tab=readme-ov-file#3-model-download"><b>📥 Model Download</b></a> |
-  <a href="https://github.com/deepseek-ai/DeepSeek-VL2/tree/main?tab=readme-ov-file#4-quick-start"><b>⚡ Quick Start</b></a> |
-  <a href="https://github.com/deepseek-ai/DeepSeek-VL2/tree/main?tab=readme-ov-file#5-license"><b>📜 License</b></a> |
-  <a href="https://github.com/deepseek-ai/DeepSeek-VL2/tree/main?tab=readme-ov-file#6-citation"><b>📖 Citation</b></a> <br>
-  <a href="./DeepSeek_VL2_paper.pdf"><b>📄 Paper Link</b></a> |
-  <a href="https://arxiv.org/abs/2412.10302"><b>📄 Arxiv Paper Link</b></a> |
-  <a href="https://huggingface.co/spaces/deepseek-ai/deepseek-vl2-small"><b>👁️ Demo</b></a>
-</p>
-
-## 1. Introduction
-
-Introducing DeepSeek-VL2, an advanced series of large Mixture-of-Experts (MoE) Vision-Language Models that significantly improves upon its predecessor, DeepSeek-VL. DeepSeek-VL2 demonstrates superior capabilities across various tasks, including but not limited to visual question answering, optical character recognition,  document/table/chart understanding, and visual grounding. Our model series is composed of three variants: DeepSeek-VL2-Tiny, DeepSeek-VL2-Small and DeepSeek-VL2, with 1.0B, 2.8B and 4.5B activated parameters respectively.
-DeepSeek-VL2 achieves competitive or state-of-the-art performance with similar or fewer activated parameters compared to existing open-source dense and MoE-based models.
-
-
-[DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding]()
-
-Zhiyu Wu*, Xiaokang Chen*, Zizheng Pan*, Xingchao Liu*, Wen Liu**, Damai Dai, Huazuo Gao, Yiyang Ma, Chengyue Wu, Bingxuan Wang, Zhenda Xie, Yu Wu, Kai Hu, Jiawei Wang, Yaofeng Sun, Yukun Li, Yishi Piao, Kang Guan, Aixin Liu, Xin Xie, Yuxiang You, Kai Dong, Xingkai Yu, Haowei Zhang, Liang Zhao, Yisong Wang, Chong Ruan*** (* Equal Contribution, ** Project Lead, *** Corresponding author)
-
-![](./images/vl2_teaser.jpeg)
-
-## 2. Release
-✅ <b>2025-2-6</b>: Naive Implemented Gradio Demo on Huggingface Space [deepseek-vl2-small](https://huggingface.co/spaces/deepseek-ai/deepseek-vl2-small).
-
-✅ <b>2024-12-25</b>: Gradio Demo Example, Incremental Prefilling and VLMEvalKit Support.
-
-✅ <b>2024-12-13</b>: DeepSeek-VL2 family released, including <code>DeepSeek-VL2-tiny</code>, <code>DeepSeek-VL2-small</code>, <code>DeepSeek-VL2</code>.
-
-## 3. Model Download
+## Model Download
 
 We release the DeepSeek-VL2 family, including <code>DeepSeek-VL2-tiny</code>, <code>DeepSeek-VL2-small</code>, <code>DeepSeek-VL2</code>.
 To support a broader and more diverse range of research within both academic and commercial communities.
@@ -90,7 +14,7 @@ Please note that the use of this model is subject to the terms outlined in [Lice
 | DeepSeek-VL2 | 4096            | [🤗 Hugging Face](https://huggingface.co/deepseek-ai/deepseek-vl2)   |
 
 
-## 4. Quick Start
+## Quick Start
 
 ### Installation
 
